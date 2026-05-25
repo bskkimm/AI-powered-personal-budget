@@ -1,0 +1,21 @@
+{
+  "name": "@ai-budget/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@ai-budget/actual-adapter": "workspace:*",
+    "@ai-budget/core": "workspace:*",
+    "@ai-budget/db": "workspace:*",
+    "@ai-budget/extractor": "workspace:*",
+    "better-sqlite3": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --build"
+  }
+}

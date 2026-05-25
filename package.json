@@ -8,19 +8,32 @@
     "test:watch": "vitest",
     "typecheck": "tsc --build",
     "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix"
+    "lint:fix": "eslint . --ext .ts --fix",
+    "finance": "tsx packages/cli/src/cli.ts"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["better-sqlite3"]
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
   },
   "dependencies": {
+    "@actual-app/api": "^26.5.2",
+    "@ai-budget/actual-adapter": "workspace:*",
+    "@ai-budget/cli": "workspace:*",
+    "@ai-budget/collectors": "workspace:*",
     "@ai-budget/core": "workspace:*",
     "@ai-budget/db": "workspace:*",
-    "@ai-budget/extractor": "workspace:*"
+    "@ai-budget/extractor": "workspace:*",
+    "@ai-budget/notion-writer": "workspace:*",
+    "@notionhq/client": "^5.22.0",
+    "dotenv": "^17.4.2",
+    "google-auth-library": "^10.6.2",
+    "googleapis": "^172.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
     "eslint": "^9.0.0",
+    "tsx": "^4.0.0",
     "typescript": "^5.7.0",
     "typescript-eslint": "^8.0.0",
     "vitest": "^3.0.0"

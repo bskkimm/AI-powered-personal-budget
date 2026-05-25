@@ -1,0 +1,15 @@
+{
+  "name": "@ai-budget/actual-adapter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@actual-app/api": "^26.5.2",
+    "@ai-budget/core": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --build"
+  }
+}

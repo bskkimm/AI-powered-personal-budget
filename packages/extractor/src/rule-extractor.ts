@@ -106,6 +106,8 @@ function extractFromPayPayJP(
   result.payment_platform = "PayPay";
   result.payment_method = "PayPay";
   result.country = "JP";
+  result.actual_account_id = "PayPay";
+  result.confidence.account_mapping = 0.9;
 
   return result;
 }
@@ -161,6 +163,8 @@ function extractFromSMBCCard(
   result.payment_method = "SMBC Card";
   result.payment_platform = "SMBC Card";
   result.country = "JP";
+  result.actual_account_id = "SMBC Card";
+  result.confidence.account_mapping = 0.9;
 
   return result;
 }

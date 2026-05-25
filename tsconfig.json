@@ -1,4 +1,4 @@
 {
   "files": [],
-  "references": [{ "path": "./packages/core" }, { "path": "./packages/extractor" }, { "path": "./packages/db" }]
+  "references": [{ "path": "./packages/core" }, { "path": "./packages/extractor" }, { "path": "./packages/db" }, { "path": "./packages/cli" }, { "path": "./packages/actual-adapter" }, { "path": "./packages/notion-writer" }, { "path": "./packages/collectors" }]
 }
