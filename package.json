@@ -1,0 +1,28 @@
+{
+  "name": "ai-powered-personal-budget",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI ingestion, extraction, validation, deduplication, and sync layer around Actual Budget",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --build",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["better-sqlite3"]
+  },
+  "dependencies": {
+    "@ai-budget/core": "workspace:*",
+    "@ai-budget/db": "workspace:*",
+    "@ai-budget/extractor": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^3.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+packages:
+  - packages/*
+
+approveBuilds: '{}'
+
+ignoredBuiltDependencies:
+  - better-sqlite3

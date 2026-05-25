@@ -1,0 +1,8 @@
+{
+  "source_channel": "phone_notification",
+  "source_name": "paypay",
+  "sender_or_app": "jp.ne.paypay.android.app",
+  "title": "PayPay",
+  "body": "ファミリーマートで680円を支払いました",
+  "received_at": "2026-05-24T20:15:00+09:00"
+}

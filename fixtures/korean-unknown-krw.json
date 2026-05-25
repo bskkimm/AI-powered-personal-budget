@@ -1,0 +1,8 @@
+{
+  "source_channel": "phone_notification",
+  "source_name": "unknown_korean_payment_app",
+  "sender_or_app": "unknown",
+  "title": "결제 알림",
+  "body": "결제가 완료되었습니다. 12,000원",
+  "received_at": "2026-05-25T20:15:00+09:00"
+}

@@ -1,0 +1,8 @@
+{
+  "source_channel": "email",
+  "source_name": "smbc",
+  "sender_or_app": "example@smbc-card.com",
+  "title": "ご利用通知",
+  "body": "カードをご利用いただきました。金額: 520円 店舗: Starbucks",
+  "received_at": "2026-05-24T20:10:00+09:00"
+}

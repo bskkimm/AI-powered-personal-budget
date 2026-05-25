@@ -1,0 +1,14 @@
+{
+  "source_channel": "manual",
+  "source_name": "manual_cash_input",
+  "body": {
+    "amount": 7000,
+    "currency": "KRW",
+    "merchant": "CU",
+    "payment_method": "Cash",
+    "category": "Convenience store",
+    "country": "KR",
+    "actual_account_name": "Cash KRW"
+  },
+  "received_at": "2026-05-25T21:00:00+09:00"
+}
